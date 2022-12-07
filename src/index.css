@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card {
+        background-image: radial-gradient(circle at top, #232a33, #171e28);
+        @apply flex flex-col gap-4 sm:gap-5 rounded-2xl p-6 max-w-sm  sm:p-8;
+    }
+}
